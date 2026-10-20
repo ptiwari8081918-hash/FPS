@@ -1,0 +1,29 @@
+# Dependency directories
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build outputs
+client/build/
+build/
+dist/
+
+# Environment files — NEVER commit real secrets
+.env
+.env.*
+*.env
+server/.env
+client/.env
+
+# Temporary / Scratch files
+scratch/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
